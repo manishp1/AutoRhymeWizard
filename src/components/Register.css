@@ -1,0 +1,77 @@
+.imageContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InputFieldContainer h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-Container input {
+  border: none;
+  padding: 20px;
+  border-radius: 25px;
+  width: 430px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 0 0 15px 20px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.checkbox-container input:checked {
+  background-color: #2196f3;
+}
+
+.terms {
+  color: white;
+}
+
+.submit-button {
+  width: 155px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  margin-left: 138px;
+  border: none;
+  background-color: orange;
+  border-radius: 10px;
+  color: blue;
+  color: darkblue;
+  font-weight: 100;
+  font-size: 24px;
+  text-align: center;
+}
+
+.errorValidation {
+  color: red;
+  margin: 5px;
+  margin-left: 21px;
+}

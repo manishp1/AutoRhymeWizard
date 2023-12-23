@@ -1,0 +1,26 @@
+.imageContainer {
+  gap: 40px;
+}
+
+.imageContainer h2 {
+  color: white;
+  text-align: center;
+}
+
+.form-Container select {
+  border: none;
+  padding: 20px;
+  border-radius: 25px;
+  width: 430px;
+}
+
+.hideError {
+  visibility: hidden;
+}
+
+.showError {
+  visibility: visible;
+  color: red;
+  text-align: center;
+  margin-bottom: 8px;
+}

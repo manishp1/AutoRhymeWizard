@@ -1,0 +1,25 @@
+.banner {
+  background-color: darkblue;
+  min-height: 90px;
+  width: 100%;
+  display: flex;
+
+}
+
+.PrimaryLogo img {
+  height: 70px;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.secondarylogo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-item {
+    height: 50px;
+    margin-top: 42px;
+    padding: 10px;
+}

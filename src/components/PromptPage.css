@@ -1,0 +1,10 @@
+.promptContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.promptContainer h2{
+    color: white;
+}

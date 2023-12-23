@@ -1,0 +1,106 @@
+ .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.main-container h2 {
+  color: white;
+}
+
+.image-Container img:nth-child(1) {
+  height: 50px;
+  margin-top: 214px;
+}
+
+.image-Container img:nth-child(3) {
+  height: 150px;
+  margin-top: 39px;
+}
+
+.image-Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 76px;
+  width: 100%;
+  justify-content: center;
+}
+.vibebox-container {
+  height: 188px;
+  min-width: 462px;
+  border: 2px solid orange;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+.headerContainer {
+  min-width: 462px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 13px 13px 0 0;
+}
+.headerContainer h3 {
+  text-align: center;
+  padding: 10px;
+  color: darkblue;
+}
+
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  height: 110px;
+  padding: 25px;
+}
+
+.emojiContainer img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.emojiBackground {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 15px;
+  position: relative;
+}
+
+.singerAvtarContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  height: 110px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.avtarBackground {
+  background-color: white;
+  height: 105px;
+  width: 122px;
+  padding: 15px;
+  position: relative;
+}
+
+.avtarBackground img {
+  height: 105px;
+  width: 122px;
+  padding: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.btn-container button {
+    margin-left: 0;
+} 
